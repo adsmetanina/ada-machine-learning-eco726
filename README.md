@@ -1,6 +1,6 @@
 # Evaluating the Impact of the ADA
 
-Final project code for ECO726 at Hunter College, Program & Policy Evaluation. This repository contains an analysis of the Americans w/ Disabilities Act (ADA) using machine learning tools to assess its impact on the earnings of individuals w/ disabilities. The project replicates and updates the findings of Acemoglu and Angrist (2001) using CPS data from 1988 to 1997.
+Final project code for ECO726 at Hunter College, Program & Policy Evaluation. This repository contains an analysis of the Americans w/ Disabilities Act (ADA) using machine learning tools to assess its impact on the earnings of individuals w/ disabilities. The project replicates and updates the findings of Acemoglu and Angrist (2001) using CPS data from 1988 to 1997. The final project submitted in December 2024.
 
 ## File
 
