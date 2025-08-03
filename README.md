@@ -35,6 +35,10 @@ The final paper submitted in December 2024 summarizes the research findings and 
 
 - Acemoglu, D., & Angrist, J. (2001). *Consequences of Employment Protection? The Case of the Americans w/ Disabilities Act.* *Journal of Political Economy*, 109(5), 915–957. [https://doi.org/10.1086/322900](https://doi.org/10.1086/322900)
 
+## Notes
+
+This project demonstrates applied modeling in R. Some minor bugs remain unedited to preserve the submitted version.
+
 ## License
 
 This repository is for academic use only.
