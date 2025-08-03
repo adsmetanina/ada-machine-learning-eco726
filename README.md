@@ -1,8 +1,9 @@
-# Evaluating the Impact of the ADA
+# Evaluating the Effects of the Americans w/ Disabilities Act Using Machine Learning
 
-Final project code for ECO726 at Hunter College, Program & Policy Evaluation. This repository contains an analysis of the Americans w/ Disabilities Act (ADA) using machine learning tools to assess its impact on the earnings of individuals w/ disabilities. The project replicates and updates the findings of Acemoglu and Angrist (2001) using CPS data from 1988 to 1997. The final project submitted in December 2024.
+Final project code for ECO 726: Policy & Program Evaluation at Hunter College. Replication of Acemoglu and Angrist (2001) using machine learning tools in R. This repository contains a set of R codes used to prepare, merge, and analyze labor policy data. It specifically investigates how the Americans w/ Disabilities Act (ADA) impacts the earnings of individuals w/ disabilities. The project constructs an analytic sample using CPS datasets from 1988 to 1997, and performs a final analysis.
 
-## File
+
+## Files
 
 | File         | Description                                                                 |
 |--------------|-----------------------------------------------------------------------------|
@@ -10,20 +11,21 @@ Final project code for ECO726 at Hunter College, Program & Policy Evaluation. Th
 
 ## Project Overview
 
-- **Goal:** Estimate the effect of the ADA on the weekly earnings of people w/ disabilities.
-- **Data Source:** March CPS (1988–1997).
-- **Methodology:** Causal forests, covariate balancing, and OLS regression.
+The final paper submitted in December 2024 summarizes the research findings and methodology. It includes regression results, policy implications, and literature references.
+
+## Data Sources
+- [March CPS (1988-1997)]
+
+## Methodology
+
 - **Treatment Variable:** Disability status.
 - **Outcome:** Log of weekly earnings.
-
-## Key Methods
-
-- Data cleaning and treatment/control assignment using CPS variables.
+- Data cleaning and treatment and control assignment using CPS variables.
 - Weighting of treatment group to national disability rate (19.3%).
 - Estimation of Average Treatment Effect (ATE) via causal forests.
 - Comparison w/ baseline OLS results.
 
-## Summary of Results
+## Results
 
 - ATE from causal forests is not statistically significant.
 - Subgroup analyses show some heterogeneity across gender, region, and education.
@@ -35,4 +37,4 @@ Final project code for ECO726 at Hunter College, Program & Policy Evaluation. Th
 
 ## License
 
-This project is for academic use only.
+This repository is for academic use only.
